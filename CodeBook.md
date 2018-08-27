@@ -1,7 +1,6 @@
 # Code book
 
-## Variables Description
-Data read from project data files. For description of each data files, refer to README in the project folder.
+## Variables Used
 
 activity - activity_labels.txt file
 
@@ -19,19 +18,18 @@ x_train - train/X_train.txt
 
 y_train -train/Y_train.txt
 
-## Processing variables
+## Other Variables
 
-tidy_test - binding test subject, test activity and test set
+tidy_test - combined dataframe
 
-y_test_label - match y_test labels with corresponding activities
+y_test_label - match y_test labels  
 
-y_train_label - match y_train labels with corresponding 
-activities
+y_train_label - match y_train labels 
 
-tidy_set - merged test set and train set
+tidy_set - combined test and train set
 
 tidy_train - binding train subject, train activity and train set
 
-tidy_mean_std - data set with only measurements on the mean and standard deviation for each measurement
+tidy_mean_std - means and standard deviations
 
-tidy_avg - independent tidy data set with the average of each variable for each activity and each subject.
+tidy_avg - averages
